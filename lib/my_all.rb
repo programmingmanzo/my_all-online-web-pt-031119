@@ -3,6 +3,8 @@ require 'pry'
 #collection = []
 
 def my_all?(collection)
-  counter = 0 
-  yield
+  i = 0 
+  while i < collection.length 
+  i += 1
+  end
 end
